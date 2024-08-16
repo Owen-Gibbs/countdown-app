@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixture Countdown</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <main class="container">
+        <header>
+            <h1>Fixture Countdown</h1>
+        </header>
+
+        <section>
+            <label for="fixture-date">Enter the date and time of the next fixture</label>
+            <input type="datetime-local" id="fixture-date" />
+            <button id="start-countdown">Start Countdown</button>
+            <button id="reset-countdown" style="display:none;">Set New Date</button>
+        </section>
+
+        <section class="countdown">
+            <article class="time">
+                <span id="days">0</span>
+                <span class="label">Days</span>
+            </article>
+            <article class="time">
+                <span id="hours">0</span>
+                <span class="label">Hours</span>
+            </article>
+            <article class="time">
+                <span id="minutes">0</span>
+                <span id="label">Minutes</span>
+            </article>
+            <article class="time">
+                <span id="seconds">0</span>
+                <span class="label">Seconds</span>
+            </article>
+        </section>
+    </main>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
