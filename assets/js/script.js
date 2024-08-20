@@ -1,4 +1,4 @@
-document.getElementById('start-countdown').addEventListener('click', function() {
+document.getElementById('start-countdown').addEventListener('click', function () {
     const dateInput = document.getElementById('fixture-date').value;
     if (dateInput) {
         const nextFixtureDate = new Date(dateInput).getTime();
@@ -6,7 +6,7 @@ document.getElementById('start-countdown').addEventListener('click', function() 
     }
 });
 
-document.getElementById('reset-countdown').addEventListener('click', function() {
+document.getElementById('reset-countdown').addEventListener('click', function () {
     resetCountdown();
 });
 
